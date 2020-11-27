@@ -1,0 +1,73 @@
+#list {
+  min-height: 300px;
+  width: 1100px;
+  margin: 0 auto; }
+
+.title {
+  line-height: 40px;
+  background-color: #ccc;
+  overflow: hidden;
+  margin-top: 30px; }
+
+.title span {
+  font-size: 14px;
+  color: #333; }
+
+.a1 {
+  margin-left: 100px; }
+
+.a2 {
+  margin-left: 388px; }
+
+.a3 {
+  margin-left: 150px; }
+
+.a4 {
+  margin-left: 295px; }
+
+#list ul li {
+  height: 200px;
+  background: #fff;
+  border: 1px solid #666;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 40px; }
+
+#list ul li img {
+  margin-left: 20px;
+  float: left; }
+
+#list ul li > input {
+  float: left;
+  margin: 50px 10px; }
+
+#list ul li > h4 {
+  width: 300px;
+  height: 120px;
+  float: left;
+  font-size: 20px;
+  padding: 0 40px;
+  box-sizing: border-box; }
+
+.bb > i {
+  text-decoration: line-through;
+  line-height: 60px;
+  color: #666; }
+
+.bb > b {
+  font-size: 15px;
+  color: red;
+  /* line-height: 60px; */ }
+
+.bb {
+  width: 200px;
+  height: 120px;
+  float: left; }
+
+#list ul li > span {
+  line-height: 120px;
+  font-size: 15px; }
+
+#list ul li button {
+  float: right;
+  margin-top: 45px; }

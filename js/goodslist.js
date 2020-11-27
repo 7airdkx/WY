@@ -1,6 +1,6 @@
 var show = document.querySelector(".show");
 ajax({
-    url: 'http://localhost/wykl/data/goodslist.json',
+    url: 'http://localhost/wykl/pages/data/goodslist.json',
     type: 'get',
     dataType: 'json', // 返回的数据类型 text  json  xml
     cache: true,// 是否使用缓存，默认为false

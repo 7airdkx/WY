@@ -1,0 +1,93 @@
+#nav .daohang {
+  width: 1100px;
+  margin-left: 0; }
+
+.daohang span {
+  display: inline-block;
+  width: 164px;
+  height: 40px;
+  background: #ff0b1a;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer; }
+
+.tit span {
+  cursor: pointer; }
+
+.tit span:hover {
+  text-decoration: underline; }
+
+.goodlist ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  min-height: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap; }
+
+.goodlist ul li {
+  width: 262px;
+  height: 460px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer; }
+
+.goodlist ul li:hover {
+  border: 1px solid #ff0b1a; }
+
+.goodlist ul li h2 {
+  color: #ff0b1a;
+  font-size: 18px; }
+
+.goodlist ul li h3 {
+  color: #9999b3;
+  text-decoration: line-through; }
+
+.goodlist ul li p {
+  line-height: 20px; }
+
+.goodlist ul li i {
+  font-style: normal;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+  border: 1px solid #ff0b1a;
+  text-align: center;
+  line-height: 14px;
+  color: #ff0b1a; }
+
+.goodlist ul li b {
+  font-weight: normal;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+  border: 1px solid #ff0b1a;
+  text-align: center;
+  line-height: 14px;
+  color: #fff;
+  background: #ff0b1a;
+  margin-left: 8px; }
+
+.goodlist ul li > a {
+  color: #666;
+  font-size: 12px;
+  line-height: 40px; }
+
+.goodlist ul li > a:hover {
+  text-decoration: underline; }
+
+.box {
+  margin: 10px 0; }
+
+.box a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eaeaea; }
+
+.box a:hover {
+  border: 1px solid #ff0b1a; }

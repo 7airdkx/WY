@@ -3,7 +3,7 @@ if (localStorage.getItem('goods')) {// 有数据
     var goodsArr = JSON.parse( localStorage.getItem('goods') )
     // 获取数据
     $.ajax({
-      url: 'http://localhost/wykl/data/goodslist.json',
+      url: 'http://localhost/wykl/pages/data/goodslist.json',
       type: 'get',
       dataType: 'json',
       success: function (json){
@@ -52,12 +52,12 @@ if (localStorage.getItem('goods')) {// 有数据
       } else {
         // 清除本地数据
         localStorage.removeItem('goods')
-        var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！<a href="http://localhost/wykl/goodslist.html">去逛逛</a></li>'
+        var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！<a href="http://localhost/wykl/pages/goodslist.html">去逛逛</a></li>'
         $('.list').html(nodata)
       }
       alert('商品移出购物车成功！')
     })
   } else {// 没数据
-    var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！<a href="http://localhost/wykl/goodslist.html">去逛逛</a></li>'
+    var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！<a href="http://localhost/wykl/pages/goodslist.html">去逛逛</a></li>'
     $('.list').html(nodata)
   }

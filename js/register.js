@@ -4,7 +4,7 @@ var inp = document.querySelectorAll("input");
 
 btn1.onclick = function () {
     ajax({
-        url: 'http://localhost/wykl/data/user.php',
+        url: 'http://localhost/wykl/pages/data/user.php',
         type: 'get',
         data: {
             user: inp[0].value,
@@ -25,7 +25,7 @@ btn1.onclick = function () {
 
 btn2.onclick = function () {
     ajax({
-        url: 'http://localhost/wykl/data/user.php',
+        url: 'http://localhost/wykl/pages/data/user.php',
         type: 'get',
         data: {
             user: inp[0].value,
@@ -37,7 +37,7 @@ btn2.onclick = function () {
         success: function (json) {
             alert(json.msg);
             if (json.err === 0) {
-                location.assign('http://localhost/wykl/index.html')
+                location.assign('http://localhost/wykl/pages/index.html')
             }
         },
         error: function (code) {
