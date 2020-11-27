@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>考拉海购</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="sass/reset.css">
+    <link rel="stylesheet" href="sass/common.css">
+</head>
+<body>
+    <!-- 头部 -->
+  <header>
+      <main class="container">
+        考拉欢迎你!
+        <a href="#">登录</a>
+        <a href="#">免费注册</a>
+        <a href="#">手机考拉
+            <div class="ewm">
+                <div class="tupa">
+                   <img src="images/ewm.png">
+                </div>
+                <p>新人下载APP</p>
+                <p>领10元满减红包</p>
+            </div>
+        </a>
+        <a href="#">每日签到</a>
+        <a href="#">我的订单</a>
+        <span>个人中心
+            <ul>
+                <li>我的优惠券</li>
+                <li>我的购物津贴</li>
+                <li>我的红包</li>
+                <li>我的考拉豆</li>
+                <li>帐号管理</li>
+                <li>我的实名认证</li>
+                <li>我的发票抬头</li>
+                <li>我收藏的商品</li>
+                <li>我关注的品牌</li>
+                <li>售后管理</li>
+            </ul>
+        </span>
+        <span>客户服务
+            <ul>
+                <li>联系客服</li>
+                <li>帮助中心</li>
+                <li>知识产权保护</li>
+                <li>帮助中心</li>
+            </ul>
+        </span>
+        <span>充值中心
+            <ul>
+                <li>话费充值</li>
+                <li>游戏充值</li>
+                <li>Appstore充值卡</li>
+            </ul>
+        </span>
+        <span>消费者权益
+            <ul>
+                <li>消费者告知书</li>
+            </ul>
+        </span>
+        <span>更多
+            <ul>
+                <li>收藏本站</li>
+                <li>新浪微博</li>
+                <li>微信公众号</li>
+                <li>招聘合作</li>
+            </ul>
+        </span>
+        <a href="#">视频内容</a>
+      </main>
+      
+  </header> 
+  <!-- 搜索 栏 -->
+  <div id="top">
+      <div class="top container">
+    <img src="images/kola_03.jpg">
+    <input type="text">
+    <button>搜索</button>
+    <span>购物车</span>
+  </div>
+</div>
+<!-- 顶部固定栏 -->
+<div class="scroll-bar">
+    <div class="container">
+        <img src="images/kola_03.jpg" width="135px" height="50px">
+        <input type="text">
+        <button>搜索</button>
+      </div>
+</div>
+<!-- 导航栏 -->
+  <div id="nav" class="container">
+    <ul>
+        <li>所有分类</li>
+        <li>美容彩妆
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>护肤</h3>
+                          <div class="inclu">
+                          <a href="#">洁面</a>
+                          <a href="#">卸妆</a>
+                          <a href="#">爽肤水</a>
+                          <a href="#">面霜</a>
+                          <a href="#">眼部护理</a>
+                          <a href="#">精华</a>
+                          <a href="#">乳液/凝胶</a>
+                          <a href="#">唇部护理</a>
+                          <a href="#">护肤套装</a>
+                          <a href="#">精油芳疗</a>
+                          <a href="#">面部护肤</a>
+                          <a href="#">防晒修复</a>
+                          <a href="#">男士护肤</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>面膜</h3>
+                            <div class="inclu">
+                                <a href="#">美迪惠尔</a>
+                                <a href="#">JMsolution</a>
+                                <a href="#">RAY</a>
+                                <a href="#">Dr.Jart+</a>
+                                <a href="#">JAYJUN</a>
+                                <a href="#">春雨</a>
+                                <a href="#">香蒲丽</a>
+                                <a href="#">森田药妆</a>
+                                <a href="#">肌美精</a>
+                                <a href="#">丽得姿</a>
+                                <a href="#">其他面膜</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="http://localhost/wykl/goodslist.html">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>母婴儿童
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>营养保健
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>数码家电
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>个护家清
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>服饰鞋饰
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>运动户外
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>手表配饰
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>轻奢
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>家居生活
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>环球美食
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+        <li>宠物生活
+            <div class="list">
+                <div class="sort">
+                    <ul>
+                        <li>
+                          <h3>奶粉</h3>
+                          <div class="inclu"> 
+                          <a href="#">爱他美</a>
+                          <a href="#">牛栏</a>
+                          <a href="#">a2</a>
+                          <a href="#">喜宝</a>
+                          <a href="#">贝拉米</a>
+                          <a href="#">惠氏</a>
+                          <a href="#">美素佳儿</a>
+                          <a href="#">Hero Baby</a>
+                          <a href="#">雅培</a>
+                          <a href="#">美赞臣</a>
+                          <a href="#">贝儿</a>
+                          <a href="#">雀巢</a>
+                          <a href="#">合生元</a>
+                          <a href="#">满趣健</a>
+                          <a href="#">Pre段</a>
+                          <a href="#">1段</a>
+                          <a href="#">2段</a>
+                          <a href="#">3段</a>
+                          <a href="#">4段 (1+)</a>
+                          <a href="#">5段(2+)</a>
+                          <a href="#">6段</a>
+                        </div>
+                        </li>
+                        <li>
+                            <h3>纸尿裤</h3>
+                            <div class="inclu">
+                                <a href="#">花王</a>
+                                <a href="#">尤妮佳</a>
+                                <a href="#">大王好奇</a>
+                                <a href="#">帮宝适</a>
+                                <a href="#">妈咪宝贝</a>
+                                <a href="#">班博</a>
+                                <a href="#">丽贝乐</a>
+                                <a href="#">妮飘</a>
+                                <a href="#">姆明一族</a>
+                                <a href="#">NB号</a>
+                                <a href="#">S号</a>
+                                <a href="#">M号</a>
+                                <a href="#">L号</a>
+                                <a href="#">XL号</a>
+                                <a href="#">XXL号</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>彩妆</h3>
+                            <div class="inclu">
+                                <a href="#">BB霜/CC霜</a>
+                                <a href="#">唇有/唇彩</a>
+                                <a href="#">隔离/妆前</a>
+                                <a href="#">粉底</a>
+                                <a href="#">粉饼散粉</a>
+                                <a href="#">美甲</a>
+                                <a href="#">眼线</a>
+                                <a href="#">眉笔</a>
+                                <a href="#">睫毛膏</a>
+                                <a href="#">眼影</a>
+                                <a href="#">腮红</a>
+                                <a href="#">遮瑕</a>
+                                <a href="#">香水化妆工具</a>
+                                <a href="#">彩妆工具</a>
+                              </div>
+                        </li>
+                        <li>
+                            <h3>防晒修复</h3>
+                            <div class="inclu">
+                                <a href="#">安耐晒</a>
+                                <a href="#">娜丽丝</a>
+                                <a href="#">RE:CIPE</a>
+                                <a href="#">碧柔</a>
+                                <a href="#">水宝宝</a>
+                                <a href="#">香蕉船</a>
+                                <a href="#">嘉娜宝Allie </a>
+                                <a href="#">Ultrasun</a>
+                                <a href="#">苏菲娜</a>
+                                <a href="#">高丝</a>
+                                <a href="#">其他防晒</a>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nf">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/nf1.jpeg">
+                    <img src="images/caiz_03.jpg">
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="daohang">
+    <a href="#">首页</a>
+    <a href="#">海外直购</a>
+    <a href="#">工厂店</a>
+    <a href="#">品质奶粉</a>
+    <a href="#">人气面膜</a>
+    <a href="#">充值</a></div>
+  </div>
+  <!-- 轮播图 -->
+  <div id="banner">
+      <div class="wrap">
+      <div class="imglist">
+    <img src="images/ban1.png" width="1920px" height="506px">
+    <img src="images/ban2.png" width="1920px" height="506px">
+    <img src="images/ban3.png" width="1920px" height="506px">
+    <img src="images/ban1.png" width="1920px" height="506px">
+    </div>
+</div>
+    <nav class="btnlist">
+        <a href="javascript:;" style="background-color: #ff0b1a;"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+      </nav>
+      <div class="leftctrl">&laquo;</div>
+      <div class="rightctrl">&raquo;</div>
+    <div class="dibu">
+        <div class="content container">
+            <a href="#">考拉自营</a>
+            <a href="#">全球采购</a>
+            <a href="#">假一赔十</a>
+            <a href="#">售后无忧</a>
+        </div>
+    </div>
+  </div>
+    <!-- 左右导航栏 -->
+    <div class="container">
+        <div id="left" class="ll">
+          <ul>
+              <h2>满88元包邮</h2>
+              <h3>热门品牌</h3>
+              <li>运动户外</li>
+              <li>美妆专区</li>
+              <li>个人家清</li>
+              <li>轻奢馆</li>
+              <li>手表配饰</li>
+              <li>美食生鲜</li>
+              <li>服饰鞋靴</li>
+              <li>家居生活</li>
+              <li>数码家电</li>
+              <li>母婴专区</li>
+              <li>营养保健</li>
+          </ul>
+          <img src="images/left.png">
+        </div>
+        <div id="right" class="rr">
+            <ul>
+                <li>签到
+                    <p>每日签到<br>赢考拉豆</p>
+                </li>
+                <li>购物车</li>
+                <li>APP</li>
+                <li class="top">^TOP</li>
+            </ul>
+        </div>
+      </div>
+  <!-- 新人优惠 -->
+  <div id="xinren" class="container">
+      <a href="#"><img src="images/xinren_03.jpg"></a>
+  </div>
+
+  <!-- 商品列表 -->
+  <div id="goods">
+      <div class="title container">
+<h3>运动户外</h3>
+热搜词：
+<a href="#">阿迪达斯</a>
+<a href="#">耐克</a>
+<a href="#">斯凯奇</a>
+<a href="#">安德玛</a>
+</div>
+<div class="goodimg container">
+    <div class="l_img">
+<a href="#">
+    <img src="images/4O1yWA5GGK2deliT06U9x6wSNf_330_542T1811012029_330_542.jpg">
+<div class="part">
+    <span>男运动鞋</span>
+    <span>女运动鞋</span>
+    <span>运动服饰</span>
+    <span>速干T恤</span>
+    <span>健身服饰</span>
+    <span>户外背包</span>
+</div>
+</a>
+    </div>
+    <div class="four">
+<a href="#"><img src="images/nike_03.jpg"></a>
+<a href="#"><img src="images/nike_05.jpg"></a>
+<a href="#"><img src="images/nike_09.jpg"></a>
+<a href="#"><img src="images/nike_10.jpg"></a>
+</div>
+<ul>
+    <h3>最新热卖 <span></span><span></span><span></span></h3>
+    <li><img src="images/fsm.jpg">
+        <div class="fur">
+            <p>shdoidvoiefjpmdknioefjd</p>
+            <span>￥399</span><b>￥499</b>
+        </div>
+    </li>
+    <li><img src="images/fsm.jpg">
+        <div class="fur">
+            <p>shdoidvoiefjpmdknioefjd</p>
+            <span>￥399</span><b>￥499</b>
+        </div>
+    </li>
+    <li><img src="images/fsm.jpg">
+        <div class="fur">
+            <p>shdoidvoiefjpmdknioefjd</p>
+            <span>￥399</span><b>￥499</b>
+        </div>
+    </li>
+    <li><img src="images/fsm.jpg">
+        <div class="fur">
+            <p>shdoidvoiefjpmdknioefjd</p>
+            <span>￥399</span><b>￥499</b>
+        </div>
+    </li>
+</ul>
+</div>
+  </div>
+  <!-- 热卖品牌 -->
+  <div id="hot">
+      <h3>热卖品牌</h3>
+      <span><img src="images/adidas.jpg"><img src="images/image.png"></span>
+      <span><img src="images/nike.jpg"><img src="images/image.png"></span>
+      <span><img src="images/skechers.jpg"><img src="images/image.png"></span>
+      <span><img src="images/newbalance.jpg"><img src="images/image.png"></span>
+      <span><img src="images/under.jpg"><img src="images/image.png"></span>
+  </div>
+  <hr class="container" color="#eaeaea">
+<!-- 热卖品牌（大） -->
+<div id="hotsale">
+    <h3>热门品牌 <i>全球精选，一网打尽</i></h3>
+    <div class="chart">
+        <div class="ii">
+        <img src="images/chart1.jpg"></div>
+        <h2>SHISEIDO 资生堂</h2>
+        <p>创造美丽生活的文化</p>
+    </div>
+    <table style="width: 876px;height: 355px;border: 1px solid #eaeaea;border-collapse:collapse;">
+        <tr>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+            <td>
+                <div class="img">
+                    <img src="images/szss.jpeg">
+                    </div>
+                    <a href="#">关注</a>
+                    <p>好吃的都在三只松鼠</p>
+                    <b>410990个人都在关注此品牌</b>
+                    <span>进入品牌</span>
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- 底部 -->
+<footer>
+    <div class="container">
+    <img src="images/dibu.jpg"></div>
+    <div class="dibucontent container">
+        <div class="connect">
+        <img src="images/kola_03.jpg">
+        关注我们
+        <b><img src="images/weibo.png">
+            <div>
+                <img src="images/weibo2.png">
+            </div>
+        </b>
+        <i><img src="images/weixin.png">
+            <div>
+                <img src="images/weixin3.png">
+            </div>
+        </i>
+    </div>
+    <div class="guide">
+        <ul>
+            <h3>考拉保障</h3>
+            <li>假一赔十</li>
+            <li>廉政举报</li>
+        </ul>
+        <ul>
+           <h3>新手指南</h3>
+           <li>购物流程</li>
+           <li>支付方式</li>
+           <li>通关税费</li>
+           <li>常见问题</li>
+        </ul>
+        <ul>
+            <h3>售后服务</h3>
+            <li>售后政策</li>
+            <li>退货流程</li>
+            <li>特色服务</li>
+            <li>联系客服</li>
+        </ul>
+        <ul>
+            <h3>物流配送</h3>
+            <li>配送方式</li>
+            <li>配送服务</li>
+            <li>运费标准</li>
+            <li>物流跟踪</li>
+        </ul>
+        <ul>
+            <h3>商家服务</h3>
+            <li>招商合作</li>
+            <li>销售联盟</li>
+            <li>商家成长</li>
+        </ul>
+        <ul>
+            <h3>关于我们</h3>
+            <li>联系我们</li>
+            <li>CEO邮箱</li>
+            <li>线下店</li>
+        </ul>
+    </div>
+    <div class="load">
+        <img src="images/shouji.png">
+        扫描下载手机版
+    </div>
+    </div>
+</footer>
+<!-- 版权信息 -->
+<div id="deep">
+    <div class="container">
+        <p>增值电信业务经营许可证:浙B2-20160288&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(浙) 网械平台备字[2018]第00007号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿里巴巴版权所有@2003-2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>隐私政策</b>-<b>考拉海购</b></p>
+        <p>网络文化经营许可证:浙网文(2020) 4340-180号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙江省网络食品销售第三方平台提供者备案:浙网食A33010006</p>
+        <p><b>浙公网安备33010802002216号</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>互联网药品信息服务资格证书编号 (浙) -2017-0027</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>浙ICP备16011229号</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>自营经营者信息</b></p>
+        <div class="imgl"><img src="images/kxwz.png"></div>
+        <div class="imgr"><img src="images/dzzz.png"></div>
+    </div>
+</div>
+    <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
